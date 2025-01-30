@@ -7,6 +7,9 @@ public class NewBehaviourScript : MonoBehaviour
     
         [SerializeField] float speed = 9.5f;
         [SerializeField] Camera camera;
+    [SerializeField] GameObject bulletPrefab;
+    [SerializeField] GameObject bulletSpawnPoint;
+    
 
     void Update()
     {
@@ -14,11 +17,9 @@ public class NewBehaviourScript : MonoBehaviour
         Turn();
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Firing");
+            Instantiate(bulletPrefab, bulletSpawnPoint.transform.position,transform.rotation);
         }
-
-
-}
+    }
     
         void Move()
         {

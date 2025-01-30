@@ -122,6 +122,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &842977046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842977047}
+  m_Layer: 0
+  m_Name: BulletSpownPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &842977047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842977046}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2043899754}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1698114999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -178,9 +209,20 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 1891103733}
+    - target: {fileID: 9181877943460033454, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 5301460100301756220, guid: bec83c7f4f67a0f46bb5a7076bee2fea, type: 3}
+    - target: {fileID: 9181877943460033454, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
+      propertyPath: bulletSpawnPoint
+      value: 
+      objectReference: {fileID: 842977046}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1041583820099002326, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 842977047}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
 --- !u!1 &1891103732
@@ -275,6 +317,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2043899754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1041583820099002326, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
+  m_PrefabInstance: {fileID: 1698114999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

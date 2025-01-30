@@ -1,6 +1,6 @@
-InstantiateInstanti%YAML 1.1
+%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6658485863011566507
+--- !u!1 &1170474438770718043
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3071581325424703989}
-  - component: {fileID: 7611938948299706912}
+  - component: {fileID: 5067854785944556384}
+  - component: {fileID: 2577162069846876849}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -17,28 +17,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3071581325424703989
+--- !u!4 &5067854785944556384
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6658485863011566507}
+  m_GameObject: {fileID: 1170474438770718043}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.011839945, y: 0.7185679, z: 0}
-  m_LocalScale: {x: 0.99136746, y: 0.6677335, z: 1}
+  m_LocalPosition: {x: -0.018146448, y: 0.6331373, z: 0}
+  m_LocalScale: {x: 1.1045526, y: 0.49869367, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6994559726570342293}
+  m_Father: {fileID: 2209666978285005546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7611938948299706912
+--- !u!212 &2577162069846876849
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6658485863011566507}
+  m_GameObject: {fileID: 1170474438770718043}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.13962269, g: 0.10616593, b: 0.10616593, a: 1}
+  m_Color: {r: 0.8113208, g: 0.37198287, b: 0.37198287, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &7867968228645946043
+--- !u!1 &5301460100301756220
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,38 +92,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6994559726570342293}
-  - component: {fileID: 6789556610248367397}
+  - component: {fileID: 2209666978285005546}
+  - component: {fileID: 961453985822895791}
   m_Layer: 0
-  m_Name: tyvia
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6994559726570342293
+--- !u!4 &2209666978285005546
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7867968228645946043}
+  m_GameObject: {fileID: 5301460100301756220}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.746, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.32938766, y: 0.6005, z: 1}
+  m_LocalPosition: {x: 1.26, y: 0.526, z: 0}
+  m_LocalScale: {x: 0.13776459, y: 0.3743264, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3071581325424703989}
+  - {fileID: 5067854785944556384}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6789556610248367397
+--- !u!212 &961453985822895791
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7867968228645946043}
+  m_GameObject: {fileID: 5301460100301756220}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -159,7 +159,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4242516, g: 0.4566037, b: 0.4195585, a: 1}
+  m_Color: {r: 0.2739409, g: 0.8490566, b: 0.62145096, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
