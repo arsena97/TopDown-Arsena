@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\script\Enemy.cs" />
     <Compile Include="Assets\script\Bulet.cs" />
   </ItemGroup>
   <ItemGroup>

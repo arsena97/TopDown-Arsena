@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\bulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|c:\\users\\lenovo\\documents\\github\\topdown-arsena\\assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|c:\\users\\lenovo\\documents\\github\\topdown-arsena\\assets\\script\\bulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|c:\\users\\lenovo\\documents\\github\\topdown-arsena\\assets\\script\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\newbehaviourscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Enemy.cs",
+              "RelativeToolTip": "Assets\\script\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T15:18:04.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Bulet.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Bulet.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Bulet.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Bulet.cs",
               "RelativeToolTip": "Assets\\script\\Bulet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T15:41:09.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NewBehaviourScript1.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\NewBehaviourScript1.cs",
               "RelativeDocumentMoniker": "Assets\\script\\NewBehaviourScript1.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "tyvia.prefab",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\tyvia.prefab",
               "RelativeDocumentMoniker": "Assets\\tyvia.prefab",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NewBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\NewBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\script\\NewBehaviourScript.cs",
@@ -74,8 +91,7 @@
               "RelativeToolTip": "Assets\\script\\NewBehaviourScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T15:07:45.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T15:07:45.647Z"
             }
           ]
         }
