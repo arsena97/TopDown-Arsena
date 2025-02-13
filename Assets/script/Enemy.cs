@@ -7,9 +7,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] int hitCount = 3;
     void OnTriggerEnter2D(Collider2D col)
     {
-      
-        Destroy(gameObject);
-        Destroy(col.gameObject);
+        hitCount = hitCount - 1;
+        if (hitCount == 0) Destroy(gameObject);
+           // Destroy(gameObject);
+       // Destroy(col.gameObject);
     }
 
 }
