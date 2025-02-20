@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bekground
+    uniqueID: 2642350601
+    locked: 0
+  - name: Enemy
+    uniqueID: 2560977465
+    locked: 0
+  - name: Bullet
+    uniqueID: 1055892615
+    locked: 0
+  - name: Player
+    uniqueID: 1600629381
     locked: 0
