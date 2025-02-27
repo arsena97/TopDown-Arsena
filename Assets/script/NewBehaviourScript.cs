@@ -9,7 +9,10 @@ public class NewBehaviourScript : MonoBehaviour
         [SerializeField] Camera camera;
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] GameObject bulletSpawnPoint;
-    
+    [SerializeField]GameObject ghostbulletPrefab;
+
+
+
 
     void Update()
     {
@@ -18,6 +21,11 @@ public class NewBehaviourScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Instantiate(bulletPrefab, bulletSpawnPoint.transform.position,transform.rotation);
+
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            Instantiate(ghostbulletPrefab,bulletSpawnPoint.transform.position,transform.rotation);
         }
     }
     
