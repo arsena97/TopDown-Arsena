@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.1957, y: -0.17, z: 10}
-  m_LocalScale: {x: 0.42786303, y: 0.45229167, z: 1}
+  m_LocalScale: {x: 0.2558621, y: 0.30529687, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 15321081554959248}
@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 15321081554959248}
   - component: {fileID: 1282595964769840425}
   - component: {fileID: 8878326709797132619}
+  - component: {fileID: 142649493327790277}
   m_Layer: 0
   m_Name: GhostBullet
   m_TagString: Untagged
@@ -160,6 +161,51 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &142649493327790277
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614855164761718632}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6713662964306794711
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,8 +232,8 @@ Transform:
   m_GameObject: {fileID: 6713662964306794711}
   serializedVersion: 2
   m_LocalRotation: {x: 0.042852174, y: -0, z: -0, w: 0.99908143}
-  m_LocalPosition: {x: -0.204, y: -0.832, z: 10.018}
-  m_LocalScale: {x: 0.44027814, y: 1.0302337, z: 1}
+  m_LocalPosition: {x: -0.193, y: -0.625, z: 10.03}
+  m_LocalScale: {x: 0.26205355, y: 0.7069992, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 15321081554959248}
