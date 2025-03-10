@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
@@ -10,19 +11,27 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] GameObject bulletPrefab;
     [SerializeField] GameObject bulletSpawnPoint;
     [SerializeField]GameObject ghostbulletPrefab;
+    [SerializeField] float bulletFireRate = 3f;
+    [SerializeField] float gostbulletFireRateDefoilt;
 
-
-
+   
+    
+     
+    
 
     void Update()
     {
         Move();
         Turn();
-        if (Input.GetMouseButtonDown(0))
+        bulletFireRate -=  Time.deltaTime;
+        if (bulletFireRate <= 0 && Input.GetMouseButtonDown(0))
         {
-            Instantiate(bulletPrefab, bulletSpawnPoint.transform.position,transform.rotation);
-
+                Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, transform.rotation);
+            bulletFireRate = 3f;
         }
+        
+
+        
         if (Input.GetMouseButtonDown(1))
         {
             Instantiate(ghostbulletPrefab,bulletSpawnPoint.transform.position,transform.rotation);

@@ -8,8 +8,12 @@ public class Enemy : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         hitCount = hitCount - 1;
-        if (hitCount == 0) Destroy(gameObject);
-            
+        if (hitCount == 0) Destroy(gameObject); 
+            if(col.name == "BulletClon")
+        {
+            Destroy(col.gameObject);
+
+        }
         
     }
     

@@ -45,6 +45,9 @@ TagManager:
   - name: Bekground
     uniqueID: 2642350601
     locked: 0
+  - name: planet
+    uniqueID: 3954107041
+    locked: 0
   - name: Enemy
     uniqueID: 2560977465
     locked: 0
