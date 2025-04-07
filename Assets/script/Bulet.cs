@@ -6,7 +6,7 @@ public class Bulet : MonoBehaviour
 {
     [SerializeField] Rigidbody2D rb;
     [SerializeField] float bulletSpeed = 20f;
-    [SerializeField] int damage = 10;
+    [SerializeField] int damage = 50;
     void Start()
     {
         rb.AddForce(transform.up * bulletSpeed, ForceMode2D.Impulse);
