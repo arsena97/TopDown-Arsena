@@ -13,6 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] GameObject ghostbulletPrefab;
     [SerializeField] float bulletFireRateDefoilt = 6f;
     float bulletFireRate = 3f;
+    [SerializeField] int health = 30;
     [SerializeField] float ghostbulletFireRateDefoilt = 6f;
      float gostbulletFireRate = 6f;
 
@@ -57,5 +58,20 @@ public class NewBehaviourScript : MonoBehaviour
         float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg - 90f;
         transform.rotation = Quaternion.Euler(0, 0, angle);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Enemy enemy = collision.GetComponent<Enemy>();
+        Debug.Log("damejaxa enemy");
+        if (enemy)
+        {
+            health -= enemy.GetDamge();
+        }
+        if(health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 
 }
