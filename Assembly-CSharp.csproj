@@ -60,11 +60,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.49f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\script\DestoryOnContact.cs" />
     <Compile Include="Assets\script\Enemy spovne.cs" />
     <Compile Include="Assets\script\Health.cs" />
+    <Compile Include="Assets\script\Player.cs" />
     <Compile Include="Assets\script\Enemy.cs" />
     <Compile Include="Assets\script\Bulet.cs" />
+    <Compile Include="Assets\script\DummyTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\2D Space Kit\Backgrounds\Background Tip.txt" />

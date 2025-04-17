@@ -1,11 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Player : MonoBehaviour
 {
-
     [SerializeField] float speed = 9.5f;
     [SerializeField] Camera camera;
     [SerializeField] GameObject bulletPrefab;
@@ -15,7 +13,7 @@ public class NewBehaviourScript : MonoBehaviour
     float bulletFireRate = 3f;
     [SerializeField] int health = 30;
     [SerializeField] float ghostbulletFireRateDefoilt = 6f;
-     float gostbulletFireRate = 6f;
+    float gostbulletFireRate = 6f;
 
 
 
@@ -36,7 +34,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         {
             Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, transform.rotation);
-            bulletFireRate=bulletFireRateDefoilt;
+            bulletFireRate = bulletFireRateDefoilt;
         }
 
 
@@ -66,12 +64,11 @@ public class NewBehaviourScript : MonoBehaviour
         {
             health -= enemy.GetDamge();
         }
-        if(health <= 0)
+        if (health <= 0)
         {
             Destroy(gameObject);
         }
     }
-
 
 
 }
