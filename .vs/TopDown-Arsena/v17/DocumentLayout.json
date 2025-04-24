@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|c:\\users\\lenovo\\documents\\github\\topdown-arsena\\assets\\script\\destoryoncontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\destoryoncontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\bulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\enemy spovne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy spovne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\assets\\script\\bulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93D2CFC3-C8C4-1344-06CA-E38DE521A7F8}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,37 +30,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Bulet.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Bulet.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Bulet.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Bulet.cs",
               "RelativeToolTip": "Assets\\script\\Bulet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T15:41:09.667Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Enemy.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Enemy.cs",
               "RelativeToolTip": "Assets\\script\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T15:18:04.304Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Player.cs",
@@ -72,24 +70,12 @@
               "RelativeToolTip": "Assets\\script\\Player.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:30:46.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DestoryOnContact.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\DestoryOnContact.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\DestoryOnContact.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\DestoryOnContact.cs",
-              "RelativeToolTip": "Assets\\script\\DestoryOnContact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:01:00.835Z",
+              "WhenOpened": "2025-04-17T15:30:46.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Health.cs",
@@ -97,11 +83,12 @@
               "RelativeToolTip": "Assets\\script\\Health.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:33:35.384Z"
+              "WhenOpened": "2025-04-03T15:33:35.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Enemy spovne.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Documents\\GitHub\\TopDown-Arsena\\Assets\\script\\Enemy spovne.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Enemy spovne.cs",

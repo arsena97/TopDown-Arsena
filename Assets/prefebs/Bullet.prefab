@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5067854785944556384}
   - component: {fileID: 2577162069846876849}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 7952486156774079161}
   - component: {fileID: 4228845653696136334}
   - component: {fileID: 4913104821580434792}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,6 +160,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7952486156774079161}
   bulletSpeed: 20.5
+  damage: 50
+  destroyOncontact: 1
 --- !u!70 &4913104821580434792
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

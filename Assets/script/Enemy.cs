@@ -29,7 +29,16 @@ public class Enemy : MonoBehaviour
         return damage;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Player player = collision.GetComponent<Player>();
+        if (player)
+        {
+            Destroy(gameObject);
+        }
 
+
+    }
 
 
 }

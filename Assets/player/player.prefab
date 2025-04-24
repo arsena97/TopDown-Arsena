@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5854884072478855701}
-  - component: {fileID: 9181877943460033454}
   - component: {fileID: 6326899963511696170}
   - component: {fileID: 522873737305116303}
   - component: {fileID: 8961826898154538440}
-  m_Layer: 0
+  - component: {fileID: 6457420455836217568}
+  m_Layer: 6
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -36,25 +36,6 @@ Transform:
   - {fileID: 7061903297743578616}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9181877943460033454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248734158979712211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58185f203317a7649baa42dcb355176d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 9.5
-  camera: {fileID: 0}
-  bulletPrefab: {fileID: 5301460100301756220, guid: bec83c7f4f67a0f46bb5a7076bee2fea, type: 3}
-  bulletSpawnPoint: {fileID: 2423905448782982268}
-  ghostbulletPrefab: {fileID: 4614855164761718632, guid: b44b70b79b6a28e46867ac9c06b7afb9, type: 3}
-  bulletFireRateDefoilt: 2
-  ghostbulletFireRateDefoilt: 6
 --- !u!95 &6326899963511696170
 Animator:
   serializedVersion: 5
@@ -132,7 +113,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.016235828, y: -0.004058838}
@@ -148,6 +129,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.7210073, y: 2.6804166}
   m_EdgeRadius: 0
+--- !u!114 &6457420455836217568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248734158979712211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: babd2cf2de8fced40ac9cd6398c70b31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 9.5
+  camera: {fileID: 0}
+  bulletPrefab: {fileID: 5301460100301756220, guid: bec83c7f4f67a0f46bb5a7076bee2fea, type: 3}
+  bulletSpawnPoint: {fileID: 2423905448782982268}
+  ghostbulletPrefab: {fileID: 4614855164761718632, guid: b44b70b79b6a28e46867ac9c06b7afb9, type: 3}
+  bulletFireRateDefoilt: 6
+  health: 30
+  ghostbulletFireRateDefoilt: 6
 --- !u!1 &2423905448782982268
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5532649809347024496}
   - component: {fileID: 203509124562139730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletSpownPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7061903297743578616}
   - component: {fileID: 7998729541880537531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cruiser 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

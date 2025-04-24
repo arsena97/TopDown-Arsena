@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2465137421046230753}
   - component: {fileID: 8152129008020677924}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 1282595964769840425}
   - component: {fileID: 8878326709797132619}
   - component: {fileID: 142649493327790277}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GhostBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,6 +133,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 8878326709797132619}
   bulletSpeed: 20
+  damage: 50
+  destroyOncontact: 0
 --- !u!50 &8878326709797132619
 Rigidbody2D:
   serializedVersion: 4
