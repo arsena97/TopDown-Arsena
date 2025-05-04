@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
     [SerializeField] TextMeshProUGUI pointsText;
     public void IncreaseScore()
     {
-        score = score + 1;
+        score = score +1;
         pointsText.text = "Points:" + score;
     }
      

@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
+using TMPro;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -14,8 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] int health = 30;
     [SerializeField] float ghostbulletFireRateDefoilt = 6f;
     float gostbulletFireRate = 6f;
-
-
+    
 
 
 
@@ -69,6 +70,6 @@ public class Player : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-
+   
+   
 }

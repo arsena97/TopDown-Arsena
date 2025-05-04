@@ -146,9 +146,9 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5301460100301756220, guid: bec83c7f4f67a0f46bb5a7076bee2fea, type: 3}
   bulletSpawnPoint: {fileID: 2423905448782982268}
   ghostbulletPrefab: {fileID: 4614855164761718632, guid: b44b70b79b6a28e46867ac9c06b7afb9, type: 3}
-  bulletFireRateDefoilt: 6
+  bulletFireRateDefoilt: 3
   health: 30
-  ghostbulletFireRateDefoilt: 6
+  ghostbulletFireRateDefoilt: 3
 --- !u!1 &2423905448782982268
 GameObject:
   m_ObjectHideFlags: 0

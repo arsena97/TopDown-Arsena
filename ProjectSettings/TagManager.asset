@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Projectile
   - Score
+  - point
   layers:
   - Default
   - TransparentFX

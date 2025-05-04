@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -8,8 +10,10 @@ public class Enemy : MonoBehaviour
    [SerializeField] float speed = 3f;
     [SerializeField] int damage = 20;
     Transform player;
+    [SerializeField] int point;
+    [SerializeField] TextMeshProUGUI pointsText;
 
-     void Start()
+    void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         Debug.Log(player.name);
@@ -39,6 +43,10 @@ public class Enemy : MonoBehaviour
 
 
     }
-
+    public void IncreaseScore()
+    {
+       point = point - 50;
+        pointsText.text = "Health" + point ;
+    }
 
 }
