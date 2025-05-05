@@ -10,9 +10,7 @@ public class Enemy : MonoBehaviour
    [SerializeField] float speed = 3f;
     [SerializeField] int damage = 20;
     Transform player;
-    [SerializeField] int point;
-    [SerializeField] TextMeshProUGUI pointsText;
-
+   
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -42,11 +40,6 @@ public class Enemy : MonoBehaviour
         }
 
 
-    }
-    public void IncreaseScore()
-    {
-       point = point - 50;
-        pointsText.text = "Health" + point ;
     }
 
 }

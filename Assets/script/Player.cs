@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
+
 using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Player : MonoBehaviour
 {
@@ -13,12 +12,16 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject ghostbulletPrefab;
     [SerializeField] float bulletFireRateDefoilt = 6f;
     float bulletFireRate = 3f;
-    [SerializeField] int health = 30;
+    [SerializeField] int health = 50;
     [SerializeField] float ghostbulletFireRateDefoilt = 6f;
     float gostbulletFireRate = 6f;
-    
+    [SerializeField] TextMeshProUGUI healthtext;
 
-
+    private void Start()
+    {
+        healthtext.text = "Health:" + health ;
+      
+    }
 
     void Update()
     {
@@ -64,6 +67,15 @@ public class Player : MonoBehaviour
         if (enemy)
         {
             health -= enemy.GetDamge();
+            healthtext.text = "Health:" + health;
+            if (health <= 200)
+            {
+                healthtext.color = Color.yellow;
+            }
+            if (health <= 100)
+            {
+                healthtext.color = Color.red;
+            }
         }
         if (health <= 0)
         {

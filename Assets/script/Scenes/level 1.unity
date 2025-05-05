@@ -249,59 +249,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 1577876842317698688, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      propertyPath: m_TagString
-      value: point
-      objectReference: {fileID: 0}
-    - target: {fileID: 5487944196652998386, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5487944196652998386, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5487944196652998386, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5487944196652998386, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5487944196652998386, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 6128932137186055152, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1577876842317698688, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 409983828}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
---- !u!1 &409983827 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1577876842317698688, guid: d4e13390f86439e4394370c5df3f6a8f, type: 3}
-  m_PrefabInstance: {fileID: 409983826}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &409983828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409983827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48101541ef7b88a41806205217d5d01e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &568004172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7779720952983476443, guid: 07354695f1a28424e83097290fd4155f, type: 3}
@@ -678,7 +630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Health:100
+  m_text: Health:300
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -687,8 +639,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279618329
+  m_fontColor: {r: 0.09831817, g: 0.79622644, b: 0.082627185, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -939,10 +891,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
-    - target: {fileID: 1248734158979712211, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 5854884072478855701, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -987,6 +935,10 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 1891103733}
+    - target: {fileID: 6457420455836217568, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
+      propertyPath: healthtext
+      value: 
+      objectReference: {fileID: 1387843030}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

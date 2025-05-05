@@ -7,6 +7,7 @@ TagManager:
   - Projectile
   - Score
   - point
+  - Enemy
   layers:
   - Default
   - TransparentFX

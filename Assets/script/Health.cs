@@ -9,13 +9,9 @@ public class Health : MonoBehaviour
 
    [SerializeField] int health = 100;
      Score score;
-    Point point;
     private void Start()
     {
         score = GameObject.FindWithTag("Score").GetComponent<Score>();
-        
-        
-            point = GameObject.FindWithTag("Sicocxle").GetComponent<Point>();
         
     }
     private void OnTriggerEnter2D(Collider2D collision)
