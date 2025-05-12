@@ -66,6 +66,7 @@
     <Compile Include="Assets\script\Score.cs" />
     <Compile Include="Assets\script\Enemy.cs" />
     <Compile Include="Assets\script\Bulet.cs" />
+    <Compile Include="Assets\script\SceneLoader.cs" />
     <Compile Include="Assets\script\DummyTarget.cs" />
   </ItemGroup>
   <ItemGroup>

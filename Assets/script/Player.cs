@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] float ghostbulletFireRateDefoilt = 6f;
     float gostbulletFireRate = 6f;
     [SerializeField] TextMeshProUGUI healthtext;
-
+    [SerializeField] SceneLoader sceneLoader;
     private void Start()
     {
         healthtext.text = "Health:" + health ;
@@ -80,6 +80,7 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            sceneLoader.LoadGameOverUI();
         }
     }
    
