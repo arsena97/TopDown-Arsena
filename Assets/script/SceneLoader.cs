@@ -13,18 +13,19 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
     }
-    public void LoadGameOverUI()
-    {
-        gameUI.SetActive(false);
-        gameOverUI.SetActive(true);
-    }
+   
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
     public void RestartGame()
     {
-        SceneManager.LoadScene("Restart");
+        SceneManager.LoadScene("Game");
     }
 
+    public void LoadGameOverUI()
+    {
+        gameUI.SetActive(false);
+        gameOverUI.SetActive(true);
+    }
 }
