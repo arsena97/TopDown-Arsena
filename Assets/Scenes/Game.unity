@@ -1782,9 +1782,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1891103733}
     - target: {fileID: 6457420455836217568, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
+      propertyPath: lossSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 7aeb94ae2fb683a4dadeda76ab0654e3, type: 3}
+    - target: {fileID: 6457420455836217568, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
       propertyPath: healthtext
       value: 
       objectReference: {fileID: 1387843030}
+    - target: {fileID: 6457420455836217568, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
+      propertyPath: bulletSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f1dff43234d232468806ba374fa14c9, type: 3}
     - target: {fileID: 6457420455836217568, guid: 39674c6597b21ce49b1d282b45567ba0, type: 3}
       propertyPath: sceneLoader
       value: 
