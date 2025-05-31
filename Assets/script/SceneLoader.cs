@@ -5,11 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    //lonsolshigamoaq Debug.Log
-    // int veriebli
     [SerializeField] GameObject gameUI;
     [SerializeField] GameObject gameOverUI;
-    public void LandGameScene()
+    public void LoadGameScene()
     {
         SceneManager.LoadScene("Game");
     }
@@ -28,4 +26,5 @@ public class SceneLoader : MonoBehaviour
         gameUI.SetActive(false);
         gameOverUI.SetActive(true);
     }
+  
 }
