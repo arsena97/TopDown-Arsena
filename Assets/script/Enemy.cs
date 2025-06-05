@@ -13,14 +13,17 @@ public class Enemy : MonoBehaviour
    
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        Debug.Log(player.name);
-       
+        GameObject Player = GameObject.FindWithTag("Player") ;
+        
+        if (player != null)
+        { 
+            player = player.GetComponent<Transform>();
+        }
     }
 
     void Update()
     {
-
+        if (player == null) return;
         Vector3 direction = (player.position - transform.position).normalized;
         transform.position += direction * speed * Time.deltaTime;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
