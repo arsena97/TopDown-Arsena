@@ -147,12 +147,14 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5301460100301756220, guid: bec83c7f4f67a0f46bb5a7076bee2fea, type: 3}
   bulletSpawnPoint: {fileID: 2423905448782982268}
   ghostbulletPrefab: {fileID: 4614855164761718632, guid: b44b70b79b6a28e46867ac9c06b7afb9, type: 3}
-  bulletFireRateDefoilt: 3
+  bulletFireRateDefoilt: 0.4
   health: 300
-  ghostbulletFireRateDefoilt: 3
+  ghostbulletFireRateDefoilt: 1
   healthtext: {fileID: 0}
   sceneLoader: {fileID: 0}
   audioSource: {fileID: 434240310335139000}
+  bulletSound: {fileID: 8300000, guid: 3f1dff43234d232468806ba374fa14c9, type: 3}
+  lossSound: {fileID: 8300000, guid: 7aeb94ae2fb683a4dadeda76ab0654e3, type: 3}
 --- !u!82 &434240310335139000
 AudioSource:
   m_ObjectHideFlags: 0

@@ -11,10 +11,10 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject bulletSpawnPoint;
     [SerializeField] GameObject ghostbulletPrefab;
     [SerializeField] float bulletFireRateDefoilt = 6f;
-    float bulletFireRate = 3f;
+    float bulletFireRate = 0.4f;
     [SerializeField] int health = 50;
     [SerializeField] float ghostbulletFireRateDefoilt = 6f;
-    float gostbulletFireRate = 6f;
+    float gostbulletFireRate = 1f;
     [SerializeField] TextMeshProUGUI healthtext;
     [SerializeField] SceneLoader sceneLoader;
     [SerializeField] AudioSource audioSource;
